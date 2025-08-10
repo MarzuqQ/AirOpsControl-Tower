@@ -1,12 +1,12 @@
-## Aviation-Data-Pipeline ✈️
+## Aviation-Data-Pipeline 
 
 This repository contains a POC for an AWS Lakehouse pipeline that processes and analyzes airline flight events. The solution demonstrates how to build a Bronze → Silver → Gold data architecture using AWS Glue, Amazon S3, Apache Iceberg, and Amazon Athena without a dedicated infrastructure-as-code template.
 
-### 📌 Overview
+### Overview
 
 The pipeline ingests raw JSON flight events into S3 (Bronze layer), processes and deduplicates them with Apache Spark on AWS Glue (Silver layer), and aggregates them into curated datasets for analytics (Gold layer). Data is stored in Apache Iceberg tables for ACID transactions and incremental updates. Athena is used for ad-hoc SQL analysis.
 
-### 🏗 Architecture
+### Architecture
 
 | Layer  | Storage                 | Processing        | Purpose                                 |
 |------- |-------------------------|-------------------|-----------------------------------------|
@@ -15,7 +15,7 @@ The pipeline ingests raw JSON flight events into S3 (Bronze layer), processes an
 | Gold   | Apache Iceberg on S3    | AWS Glue (Spark)  | Aggregated analytics-ready KPIs         |
 | Query  | Athena                  | —                 | Serverless SQL analytics over Iceberg   |
 
-### 📦 AWS Services Used
+### AWS Services Used
 
 - **Amazon S3**: Stores raw, curated, and aggregated datasets.
 - **AWS Glue**: Runs Spark ETL jobs to transform data between layers.
@@ -118,7 +118,7 @@ aviation-data-pipeline/
 └─ README.md
 ```
 
-### ✅ Validation Checklist
+### Validation Checklist
 
 - **Buckets exist** and contain data.
 - **Glue database and tables** are created.
