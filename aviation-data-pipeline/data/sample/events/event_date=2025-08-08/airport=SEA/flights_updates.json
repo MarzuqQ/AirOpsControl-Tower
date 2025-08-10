@@ -1,0 +1,5 @@
+[
+    {"event_id":"2b","flight_id":"AS101-2025-08-08","carrier":"AS","origin":"SEA","dest":"LAX","sched_dep_ts":"2025-08-08T12:15:00Z","sched_arr_ts":"2025-08-08T14:50:00Z","actual_dep_ts":"2025-08-08T12:20:00Z","actual_arr_ts":"2025-08-08T15:20:00Z","status":"ARRIVED","delay_reason":"WX","event_ts":"2025-08-08T15:21:00Z"},
+    {"event_id":"25b","flight_id":"AS124-2025-08-08","carrier":"AS","origin":"SEA","dest":"DFW","sched_dep_ts":"2025-08-08T15:55:00Z","sched_arr_ts":"2025-08-08T21:25:00Z","actual_dep_ts":"2025-08-08T16:50:00Z","actual_arr_ts":"2025-08-08T22:30:00Z","status":"ARRIVED","delay_reason":"MAINT","event_ts":"2025-08-08T22:31:00Z"},
+    {"event_id":"40b","flight_id":"AS139-2025-08-08","carrier":"AS","origin":"SEA","dest":"SJC","sched_dep_ts":"2025-08-08T18:50:00Z","sched_arr_ts":"2025-08-08T20:35:00Z","actual_dep_ts":null,"actual_arr_ts":null,"status":"CANCELLED","delay_reason":"MX","event_ts":"2025-08-08T19:00:00Z"}
+]
