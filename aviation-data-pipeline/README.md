@@ -1,4 +1,4 @@
-## aviation-data-pipeline ✈️
+## Aviation-Data-Pipeline ✈️
 
 This repository contains a POC for an AWS Lakehouse pipeline that processes and analyzes airline flight events. The solution demonstrates how to build a Bronze → Silver → Gold data architecture using AWS Glue, Amazon S3, Apache Iceberg, and Amazon Athena without a dedicated infrastructure-as-code template.
 
